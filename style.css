@@ -1,0 +1,58 @@
+h4{
+    text-align: center;
+    font-weight: bold;
+    margin-top: 50px;
+}
+p{
+    text-align: center;
+}
+
+.container{
+    background-color: rgb(244, 63, 12);
+}
+h6{
+    margin-top: 150px;
+    text-align: center;
+}
+button{
+    background-color:rgb(244, 63, 12) ;
+    border: none;
+    color: #fff;
+    width: 350px;
+    height: 60px;
+    text-align: center;
+}
+img{
+    width: 100%;
+    height: 100%;
+      
+}
+@media only screen and (max-width: 425px) {
+    button{
+        background-color:rgb(244, 63, 12) ;
+        border: none;
+        color: #fff;
+    }
+    .text{
+        align-items: center;
+    }
+    img{
+        width: 100%;
+        height: 80%;
+    }
+}
+@media only screen and (max-width:768px) {
+    button{
+        background-color:rgb(244, 63, 12) ;
+        border: none;
+        color: #fff;
+        text-align: center;
+    }
+    .text{
+        align-items: center;
+    }
+    h6{
+        margin-top: 150px;
+        text-align: center;
+    }
+}
